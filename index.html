@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
         <!-- <h1>Stop Watch </h1> -->
@@ -15,7 +17,10 @@
         <h1 id="sec">00</h1>
         <h1 id="msec">00</h1>
     </div>
-    <div><!-- when you use multiple event in onclick function use " ; "  like down        -->
+    <div>
+        <!-- when you use multiple event in onclick function use " ; "  like down        -->
+        <!-- <img onclick="start(); changeColor('msec','sec','min');return false;" id="start-disable" src="https://lh3.googleusercontent.com/proxy/e9ytq8G1clvhylhoAfFhsmzlnoXDsHE4_V-9aTtiVcowOR9QJMglYJfzdyRxKB6YYzaDjRbWKDbAWmspq-kV-0eiTJdnZO4" 
+            width="50px" alt="play-button"> -->
         <button onclick="start(); changeColor('msec','sec','min');return false;" id="start-disable">Start</button>
         <button onclick="stop()">Stop</button>
         <button onclick="reset()">Reset</button>
@@ -25,11 +30,11 @@
         <span id="min1"> </span> : <span id="sec1"> </span> : <span id="msec1"> </span>
     </div>
 
-    <!-- <img onclick="start(); changeColor('msec','sec','min');return false;" id="start-disable" src="https://lh3.googleusercontent.com/proxy/e9ytq8G1clvhylhoAfFhsmzlnoXDsHE4_V-9aTtiVcowOR9QJMglYJfzdyRxKB6YYzaDjRbWKDbAWmspq-kV-0eiTJdnZO4" width="50px" alt="play-button"> -->
-        
+
     <!--    ask about Image play button  -->
-    
-    
+
+
     <script src="app.js"></script>
 </body>
+
 </html>
