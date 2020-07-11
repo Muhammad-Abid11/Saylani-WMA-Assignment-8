@@ -33,7 +33,16 @@ function start(){
 function stop(){
     document.getElementById("start-disable").disabled=false;
     clearInterval(interval);
-    console.log(min,sec,msec);    
+    console.log(min,sec,msec);
+    // minHeading.innerHTML=min;
+    // secHeading.innerHTML=sec;
+    // msecHeading.innerHTML=msec;
+    var name1=document.getElementById('min1');
+    var name2=document.getElementById('sec1');
+    var name3=document.getElementById('msec1');
+    name1.innerHTML=min;
+    name2.innerHTML=sec;
+    name3.innerHTML=msec;
 }
 function reset(){
     stop();
