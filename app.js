@@ -21,13 +21,15 @@ function timer(){
     }
 }
 function start(){
+    document.getElementById("start-disable").disabled=true;    
     interval=setInterval(timer,10)
 }
 function stop(){
+    document.getElementById("start-disable").disabled=false;    
     clearInterval(interval);
 }
 function reset(){
-    clearInterval(interval);
+    stop();
     // minHeading.innerHTML=0;
     // secHeading.innerHTML=0;          also work
     // msecHeading.innerHTML=0;
