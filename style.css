@@ -1,10 +1,12 @@
 body{
-    background-color: black;
+    background-color: whitesmoke;
     text-align: center;
+    margin: 200px auto;
 }
 h1{
-    color: white;
+    color: grey;
     display: inline-block;
     width: 100px;
-    background-color: skyblue;
+    font-size: 50px;
+    /* background-color: skyblue; */
 }

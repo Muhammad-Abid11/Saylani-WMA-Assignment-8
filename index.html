@@ -8,17 +8,20 @@
 </head>
 <body>
     <div>
-        <h1>Stop Watch </h1>
+        <!-- <h1>Stop Watch </h1> -->
     </div>
     <div>
-        <h1 id="min">0</h1>
-        <h1 id="sec">0</h1>
-        <h1 id="msec">0</h1>
+        <h1 id="min">00</h1>
+        <h1 id="sec">00</h1>
+        <h1 id="msec">00</h1>
     </div>
-    <div>
-        <button onclick="start()" id="start-disable">Start</button>
+    <div><!-- when you use multiple event in onclick function use " ; "  like down        -->
+        <button onclick="start(); changeColor('msec','sec','min');return false;" id="start-disable">Start</button>
         <button onclick="stop()">Stop</button>
         <button onclick="reset()">Reset</button>
+    </div>
+    <div>
+        <h2></h2>
     </div>
     <script src="app.js"></script>
 </body>
