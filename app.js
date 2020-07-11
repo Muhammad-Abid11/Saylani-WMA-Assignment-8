@@ -31,8 +31,9 @@ function start(){
     interval=setInterval(timer,10)
 }
 function stop(){
-    document.getElementById("start-disable").disabled=false;    
+    document.getElementById("start-disable").disabled=false;
     clearInterval(interval);
+    console.log(min,sec,msec);    
 }
 function reset(){
     stop();
